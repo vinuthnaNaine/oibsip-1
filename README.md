@@ -1,49 +1,52 @@
 # oibsip-1
 Iris Flower Classification
 
-This project is a machine learning classification task to predict the species of iris flowers based on their features. It uses the Iris dataset and implements a Random Forest classifier to achieve this goal.
+# 🌸 Iris Flower Classification  
 
-Dataset
+## 📌 Project Overview  
+This project implements a **machine learning model** to classify **Iris flower species** using the famous **Iris dataset**. The dataset contains three species:  
+- **Setosa**  
+- **Versicolor**  
+- **Virginica**  
 
-The dataset used is the Iris Dataset, which contains the following features:
-Sepal Length
-Sepal Width
-Petal Length
-Petal Width
-Species (Target variable)
+The classification is based on features such as **sepal length, sepal width, petal length, and petal width**.
 
-Requirements
+---
 
-To run this project, you need the following dependencies:
-pip install pandas numpy scikit-learn matplotlib seaborn
+## 📂 Dataset Information  
+The dataset used is the **Iris Dataset**, originally provided by **Ronald Fisher (1936)**. It is a widely used dataset in machine learning.  
 
-Project Structure
+- **Filename:** `iris.csv`  
+- **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/iris)  
+- **Format:** CSV  
+- **Size:** ~4.6 KB  
+- **Number of Samples:** 150  
+- **Number of Features:** 4  
 
-Iris_Flower_Classification.ipynb: Jupyter notebook containing the full implementation.
-Iris.csv: The dataset used for training and testing.
+### **🔢 Features & Labels**
+| Column Name     | Description                     |
+|----------------|--------------------------------|
+| `sepal_length` | Sepal length in cm            |
+| `sepal_width`  | Sepal width in cm             |
+| `petal_length` | Petal length in cm            |
+| `petal_width`  | Petal width in cm             |
+| `species`      | Flower species (Setosa, Versicolor, Virginica) |
 
-Steps in the Notebook
+---
 
-Import Libraries: Load necessary Python libraries for data manipulation, visualization, and machine learning.
-Load Dataset: Read the dataset and explore its structure.
-Data Preprocessing: Handle missing values and encode categorical data if necessary.
-Data Visualization: Use Seaborn and Matplotlib to analyze feature distributions and correlations.
-Model Training: Implement a Random Forest classifier using Scikit-Learn.
-Evaluation: Assess model performance using accuracy, confusion matrix, and classification report.
+## 🚀 Getting Started  
 
-Running the Notebook
+### **🔧 Requirements**
+Ensure you have **Python 3.x** installed, along with the following libraries:  
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `scikit-learn`
+- `Jupyter Notebook` (if running `.ipynb` file)
 
-To execute the notebook:
+### **📥 Install Dependencies**  
+Run the following command to install the required dependencies:  
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn notebook
 
-Open Jupyter Notebook:
-
-jupyter notebook
-
-Open Iris_Flower_Classification.ipynb and run the cells step by step.
-Results
-
-The model predicts the species of iris flowers with a high level of accuracy. Results are evaluated using various classification metrics.
-
-Author
-
-Developed by Vinuthna Naine.
